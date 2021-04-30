@@ -6,9 +6,9 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 
 ## I. UI test
 
-[See the Test folder](Task1_UITest_Java/app_ui_test/)
+[See Task1_UITest_Java folder](Task1_UITest_Java/app_ui_test/)
 
-#### Tools used:
+### Tools used:
 * [Appium framework](https://appium.io/)
 * [Android studio](https://developer.android.com/studio)
 * [IntelliJ IDEA IDE](https://www.jetbrains.com/idea/)
@@ -17,7 +17,7 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 * [Selenium Webdriver](https://www.selenium.dev/downloads/)
 * Smartphone Samsung A-7100
 
-#### Description:
+### Description:
 To get UI selectors, UI Automator Viewer from the Android studio was used to analyze the Giphy app on the Samsung device.
 Test scenario includes the next steps:
 - Establishing the connection to the app;
