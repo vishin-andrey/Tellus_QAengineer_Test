@@ -88,8 +88,8 @@ _For a detailed description, see the code files comments._
 ### Description:
 In this project section, developed SQL query prepared a simple test database, and the query tried using an online SQL emulator.
 There are two files in the task folder:
-* Test_dbcreate.sql to create a test table
-* Test_query.sql with the main query
+* `Test_dbcreate.sql` to create a test table
+* `Test_query.sql` with the main query
 
 
 ## IV. Test Scenarios
