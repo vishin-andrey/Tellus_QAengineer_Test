@@ -88,7 +88,9 @@ _For a detailed description, see the code files comments._
 ### Description:
 In this project section, was developed a SQL query, prepared a simple test database, and the query was checked using an online SQL emulator.
 
-There are two files in the task folder:
+During the project, this task was corrected. One more column, 'model' was added. The task is to select all models for laptops with an average price of less than $2000.
+
+This report includes two files in the task folder:
 * `Test_dbcreate.sql` to create a test table
 * `Test_query.sql` with the main query
 
