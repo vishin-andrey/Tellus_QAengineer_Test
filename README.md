@@ -111,3 +111,12 @@ HAVING AVG(price)<2000
 
 
 ## IV. Test Scenarios
+[See Task4_TestScenarios folder](Task4_TestScenarios/)
+
+### Tools used:
+* MS Excel
+
+### Description:
+Exploratory testing of [GIPHY WEB app] (https://giphy.com/) was performed. Based on its results, the requirements for the search functionality were predicted and a Test matrix was drawn up.  One of the test cases is described in steps.
+
+The Test matrix and test cases are included in the one XLS file.
