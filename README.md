@@ -119,8 +119,7 @@ FROM (
   SELECT 
   p.product_id, p.price,
   AVG(p.price) OVER 
-    (ORDER BY p.price ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
-                                                           AS average_price
+    (ORDER BY p.price ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS average_price
   FROM (
     SELECT product_id, price
     FROM Products
