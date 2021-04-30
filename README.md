@@ -86,48 +86,26 @@ _For a detailed description, see the code files comments._
 * [SQL online emulator](http://sqlfiddle.com/)
 
 ### Description:
-In this project section, developed SQL query prepared a simple test database, and the query tried using an online SQL emulator.
+In this project section, was developed a SQL query, prepared a simple test database, and the query was checked using an online SQL emulator.
+
 There are two files in the task folder:
 * `Test_dbcreate.sql` to create a test table
 * `Test_query.sql` with the main query
 
-To create the final request, three nested queries are used.
+The query steps are:
+- select laptops by product_type='laptop'
+- group the data by model
+- add the 'average_price' column into the table
+- calculate average prices for models
+- filter the models having an average price less than $2000
 
-1. At first, selected laptops.
 ```
-SELECT product_id, price
+SELECT model, AVG(price) as average_price
 FROM Products
 WHERE product_type='laptop'
+GROUP BY model
+HAVING AVG(price)<2000
 ```
-2. At the next step, a table created, where the records are ordered by price ascending. Into this table, a new column added. The column includes average prices for the items from the first record (cheapest) to the current one.
-```
-SELECT 
-  p.product_id, p.price,
-  AVG(p.price) OVER 
-    (ORDER BY p.price ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS average_price
-  FROM (
-    SELECT product_id, price
-    FROM Products
-    WHERE product_type='laptop'
-  ) p
-) t
-```
-3. The last query selects all the items which will have an average price lower than the task limit.
-```
-SELECT product_id, price 
-FROM (
-  SELECT 
-  p.product_id, p.price,
-  AVG(p.price) OVER 
-    (ORDER BY p.price ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS average_price
-  FROM (
-    SELECT product_id, price
-    FROM Products
-    WHERE product_type='laptop'
-  ) p
-) t
-WHERE
-  average_price < 2000;
-```
+
 
 ## IV. Test Scenarios
