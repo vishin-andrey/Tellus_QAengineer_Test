@@ -11,13 +11,15 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 ### Tools used:
 * [Appium framework](https://appium.io/)
 * [Android studio](https://developer.android.com/studio)
-* [IntelliJ IDEA IDE](https://www.jetbrains.com/idea/)
 * Java
+* [IntelliJ IDEA IDE](https://www.jetbrains.com/idea/)
 * [TestNG framework](https://testng.org/)
 * [Selenium Webdriver](https://www.selenium.dev/downloads/)
 * Smartphone Samsung A-7100
 
 ### Description:
+Login Test for the [GIPHY Android app](https://play.google.com/store/apps/details?id=com.giphy.messenger) was developed.
+
 To get UI selectors, UI Automator Viewer from the Android studio was used to analyze the Giphy app on the Samsung device.
 Test scenario includes the next steps:
 - Establishing the connection to the app;
@@ -41,6 +43,8 @@ LoginPage.java
 ProfilePage.java
 StartPage.java`
 
+_For a detailed description, see the code files comments._
+
 #### Notice
 To execute tests, register on the giphy.com website. To use the user name and password, after registration set the next environment variables:
 ```
@@ -49,6 +53,26 @@ GIPHY_TEST_PASSWORD
 ```
 
 ## II. Back-end test
+
+[See Task2_BackendTest_Ruby folder](Task2_BackendTest_Ruby/)
+
+### Tools used:
+* Ruby
+* [RubyMine IDE](https://www.jetbrains.com/ruby/)
+* [open-uri gem](https://github.com/ruby/open-uri)
+* [rest-client gem](https://github.com/rest-client/rest-client)
+* [httparty gem](https://github.com/jnunemaker/httparty)
+
+### Description:
+Developed Search Test for [GIPHY WEB app](https://giphy.com/)
+The test implements the HTTP GET query to Giphy application web API. The test success is checking using the response code 200 OK. The response JSON validation is not included in the test case.
+For test execution, received API key using [Giphy developers website](https://developers.giphy.com). However, the project's final code implemented a method for extraction of the API key, using parsing of the landing page HTML.
+The project code used three classes:
+- class _GiphyAPI_ implement interaction with Giphy web API;
+- class _Test_ establishes the form of the final result submission;
+- class _TestGiphySearch_ includes a method to implement a test search query
+
+_For a detailed description, see the code files comments._
 
 ## III. SQL
 
