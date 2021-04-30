@@ -117,6 +117,6 @@ HAVING AVG(price)<2000
 * MS Excel
 
 ### Description:
-Exploratory testing of [GIPHY WEB app] (https://giphy.com/) was performed. Based on its results, the requirements for the search functionality were predicted and a Test matrix was drawn up.  One of the test cases is described in steps.
+Exploratory testing of [GIPHY WEB app](https://giphy.com/) was performed. Based on its results, the requirements for the search functionality were predicted and a Test matrix was drawn up.  One of the test cases is described in steps.
 
 The Test matrix and test cases are included in the one XLS file.
