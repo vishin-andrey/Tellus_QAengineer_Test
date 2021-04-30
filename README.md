@@ -27,8 +27,10 @@ Test scenario includes the next steps:
 - Waiting for Logging in and check it;
 - Going to the home page;
 - Logging out and closing the connection.
+
 Tests prepared using TestNG approaches. The @BeforeMethod is used to manage a connection to the device and the app. Then @Test executes test steps. Finally, the teardown follows within the @AfterMethod.
-This project realized in two ways:
+
+The project realized in two ways:
 1. Short Linear script.
 `See GiphyUITestSIMPLE.java`
 2. Simple framework based on Page Object Model approach.
@@ -39,16 +41,12 @@ LoginPage.java
 ProfilePage.java
 StartPage.java`
 
-
-#### Conclusion
-
 #### Notice
 To execute tests, register on the giphy.com website. To use the user name and password, after registration set the next environment variables:
 ```
 GIPHY_TEST_USERNAME 
 GIPHY_TEST_PASSWORD
 ```
-
 
 ## II. Back-end test
 
