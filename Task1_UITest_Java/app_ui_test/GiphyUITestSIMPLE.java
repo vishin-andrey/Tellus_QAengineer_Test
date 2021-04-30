@@ -11,6 +11,7 @@ import io.appium.java_client.android.AndroidDriver;
 
 public class GiphyUITestSIMPLE {
     private AndroidDriver driver;
+    // Get the User's name & password from system variables
     String userName = System.getenv("GIPHY_TEST_USERNAME");
     String userPass = System.getenv("GIPHY_TEST_PASSWORD");
 
