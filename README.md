@@ -21,6 +21,7 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 Login Test for the [GIPHY Android app](https://play.google.com/store/apps/details?id=com.giphy.messenger) was developed.
 
 To get UI selectors, UI Automator Viewer from the Android studio was used to analyze the Giphy app on the Samsung device.
+
 Test scenario includes the next steps:
 - Establishing the connection to the app;
 - Starting the application on the device;
@@ -65,8 +66,11 @@ GIPHY_TEST_PASSWORD
 
 ### Description:
 Developed Search Test for [GIPHY WEB app](https://giphy.com/)
+
 The test implements the HTTP GET query to Giphy application web API. The test success is checking using the response code 200 OK. The response JSON validation is not included in the test case.
+
 For test execution, received API key using [Giphy developers website](https://developers.giphy.com). However, the project's final code implemented a method for extraction of the API key, using parsing of the landing page HTML.
+
 The project code used three classes:
 - class _GiphyAPI_ implement interaction with Giphy web API;
 - class _Test_ establishes the form of the final result submission;
@@ -75,5 +79,17 @@ The project code used three classes:
 _For a detailed description, see the code files comments._
 
 ## III. SQL
+[See Task3_SQLTest_SQL folder](Task3_SQLTest_SQL/)
+
+### Tools used:
+* Structured Query Language
+* [SQL online emulator](http://sqlfiddle.com/)
+
+### Description:
+In this project section, developed SQL query prepared a simple test database, and the query tried using an online SQL emulator.
+There are two files in the task folder:
+* Test_dbcreate.sql to create a test table
+* Test_query.sql with the main query
+
 
 ## IV. Test Scenarios
