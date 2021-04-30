@@ -6,7 +6,7 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 
 ## I. UI test
 
-[Test folder](Task1_UITest_Java/app_ui_test/)
+[See the Test folder](Task1_UITest_Java/app_ui_test/)
 
 ##### Tools used:
 * [Appium framework](https://appium.io/)
@@ -18,12 +18,25 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 * Smartphone Samsung A-7100
 
 ##### Description:
+To get UI selectors, UI Automator Viewer from the Android studio was used to analyze the Giphy app on the Samsung device.
+Test scenario includes the next steps:
+- Establishing the connection to the app;
+- Starting the application on the device;
+- Passing Start page;
+- Entering user name and password;
+- Waiting for Logging in and check it;
+- Going to the home page;
+- Logging out and closing the connection.
+
+
+##### Conclusion
+
+##### Notice
 To execute tests, register on the giphy.com website. To use the user name and password, after registration set the next environment variables:
 ```
 GIPHY_TEST_USERNAME 
 GIPHY_TEST_PASSWORD
 ```
-##### Notice
 
 
 ## II. Back-end test
