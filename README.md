@@ -76,7 +76,7 @@ The project code used three classes:
 - class _Test_ establishes the form of the final result submission;
 - class _TestGiphySearch_ includes a method to implement a test search query
 
-_For a detailed description, see the code files comments._
+_For a detailed description, see the code file comments._
 
 ## III. SQL
 See folder [Task3_SQLTest_SQL](Task3_SQLTest_SQL/)
