@@ -1,8 +1,8 @@
 # Tellus_QAengineer_Test
 #### Tellus test task for the QA Engineer in Automation
 
-_This repository contains the results of the Test projects of career seeker for the QA Engineer in Automation position.
-The project requirements are defined in the file: Tellus QA Automation Engineer Test Task-1.pdf (see below)_
+_This repository contains the Test projects of the career seeker for the QA Engineer in Automation position.
+The project requirements are defined in the file: Tellus QA Automation Engineer Test Task-1.pdf (see in the root folder)_
 
 ## I. UI test
 
