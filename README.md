@@ -6,7 +6,7 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 
 ## I. UI test
 
-[See Task1_UITest_Java folder](Task1_UITest_Java/app_ui_test/)
+See folder [Task1_UITest_Java](Task1_UITest_Java/app_ui_test/)
 
 ### Tools used:
 * [Appium framework](https://appium.io/)
@@ -55,7 +55,7 @@ GIPHY_TEST_PASSWORD
 
 ## II. Back-end test
 
-[See Task2_BackendTest_Ruby folder](Task2_BackendTest_Ruby/)
+See folder [Task2_BackendTest_Ruby](Task2_BackendTest_Ruby/)
 
 ### Tools used:
 * Ruby
@@ -79,7 +79,7 @@ The project code used three classes:
 _For a detailed description, see the code files comments._
 
 ## III. SQL
-[See Task3_SQLTest_SQL folder](Task3_SQLTest_SQL/)
+See folder [Task3_SQLTest_SQL](Task3_SQLTest_SQL/)
 
 ### Tools used:
 * Structured Query Language
@@ -111,7 +111,7 @@ HAVING AVG(price)<2000
 
 
 ## IV. Test Scenarios
-[See Task4_TestScenarios folder](Task4_TestScenarios/)
+See folder [Task4_TestScenarios](Task4_TestScenarios/)
 
 ### Tools used:
 * MS Excel
