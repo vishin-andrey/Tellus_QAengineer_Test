@@ -111,7 +111,7 @@ HAVING AVG(price)<2000
 
 
 ## IV. Test Scenarios
-See folder [Task4_TestScenarios](Task4_TestScenarios/)
+See file in the folder [Task4_TestScenarios](Task4_TestScenarios/)
 
 ### Tools used:
 * MS Excel
