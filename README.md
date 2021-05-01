@@ -20,9 +20,9 @@ The project requirements are defined in the file: Tellus QA Automation Engineer 
 ### Description:
 Login Test for the [GIPHY Android app](https://play.google.com/store/apps/details?id=com.giphy.messenger) was developed.
 
-To get UI selectors, UI Automator Viewer from the Android studio was used to analyze the Giphy app on the Samsung device.
+Giphy app on the Samsung device was analyzed using UI Automator Viewer from the Android studio to get UI selectors.
 
-Test scenario includes the next steps:
+Test scenario includes the following steps:
 - Establishing the connection to the app;
 - Starting the application on the device;
 - Passing Start page;
@@ -47,7 +47,7 @@ StartPage.java`
 _For a detailed description, see the code files comments._
 
 #### Notice
-To execute tests, register on the giphy.com website. To use the user name and password, after registration set the next environment variables:
+To execute tests, register on the giphy.com website. To use the user name and password, after registration, set the following environment variables:
 ```
 GIPHY_TEST_USERNAME 
 GIPHY_TEST_PASSWORD
@@ -117,6 +117,6 @@ HAVING AVG(price)<2000
 * MS Excel
 
 ### Description:
-Exploratory testing of [GIPHY WEB app](https://giphy.com/) was performed. Based on its results, the requirements for the search functionality were predicted and a Test matrix was drawn up.  One of the test cases is described in steps.
+Exploratory testing of [GIPHY WEB app](https://giphy.com/) was performed. Based on its results, the requirements for the search functionality were predicted, and a Test matrix was drawn up.  One of the test cases is described in steps.
 
 The Test matrix and test cases are included in the one XLS file.
